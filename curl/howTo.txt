@@ -1,0 +1,3 @@
+Copy the lines in each of the files listed in this folder into the windows console. Hit enter.
+server at https://arcane-shore-78058.herokuapp.com/
+db at postgresql://unbzoqbe2lwx6l2slkox:cEt1EgFnlfZgoHvvLn1s@brwll5kedwpfrjmuydfe-postgresql.services.clever-cloud.com:5432/brwll5kedwpfrjmuydfe
