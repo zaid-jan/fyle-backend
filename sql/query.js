@@ -15,13 +15,12 @@ const queryBranches = async (q, limit, offset, pool) => {
     return result.rows;
 }
 
-const queryAutocomplete = async (q, limit, offset, pool) => {    
+const queryAutocomplete = async (q, limit, offset, pool) => {  
     const sql = `
     select * from branches 
     where branch like '%${q}%' 
     order by ifsc 
-    limit ${limit} offset ${offset}
-    `
+    limit ${limit} offset ${offset}`;
     const result = await pool.query(sql)
     return result.rows;
 }
