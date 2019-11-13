@@ -15,6 +15,9 @@ app.listen(port, () => {
     console.log(`app listeining on ${port}`)
 })
 
+
+console.log(process.env.user)
+
 const pool = new Pool({
   user: process.env.user,
   host: process.env.host,
